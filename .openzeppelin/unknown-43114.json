@@ -1,0 +1,1807 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x2b8f14B45eA1b57506848636E02fd49e6B5e9ED0",
+      "txHash": "0x2aff8a1b8dbf6d2c64bbac4fca9038289475c000c3cd79c73f972a52d842a561",
+      "kind": "uups"
+    },
+    {
+      "address": "0xde163606d1c67A259199D3262c8B313f3e118b18",
+      "txHash": "0x272f6d29d7ed89220300b94fa515569065e6c40a6d6580f09c1d1a75f623e6dd",
+      "kind": "uups"
+    },
+    {
+      "address": "0x55514e3b4D8CBbbffDf7406DDFFFc363b4fc89fb",
+      "txHash": "0x00a2b2e95cdba976b9415c0d8123a51da8bc6f7783695b2b642085d5a679f0da",
+      "kind": "uups"
+    },
+    {
+      "address": "0x115fe12263515047D2f87F1A04870F33AfA07e63",
+      "txHash": "0x25d6b0856addb98d0c82ee4979121b5ac435956216ed3cb66e489c86d7ba5655",
+      "kind": "uups"
+    },
+    {
+      "address": "0x36041054adFBa98F9b2a429a2aE075F7bfBcb073",
+      "txHash": "0x1daecbabdad9967e5af0a1317cd03818f948868dac0ed23c5a90b3c4066824ce",
+      "kind": "uups"
+    },
+    {
+      "address": "0x4fe8C658f268842445Ae8f95D4D6D8Cfd356a8C8",
+      "txHash": "0x035ce22380b492ce9b27afb8f87a8609d3825224163d641c1ef72140af197327",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "536fe0d8b0769eac64d4b1843c25345009af4d2c02f401f18f99a5620350c29e": {
+      "address": "0x5e93dc50505bD0DF26cAc98Cf65D699dC47C8875",
+      "txHash": "0x7142a2e3cff005e7a6b447ead7871e1221653b219065e0b0a04d83ba5b5a0412",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10286_storage",
+            "src": "contracts\\Portal\\Portal.sol:78"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)10535_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11366_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:85"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:86"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:881"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10286_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)10535_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)10509_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)10509_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)10509_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11366_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "c5d1e4196e6b45f7b8195e35d0400cb9f735ae783bff5675d0f45dc48c9ff54f": {
+      "address": "0xfc208E0847b004580a9DE5A117B94690Ee499460",
+      "txHash": "0x5e8a6da951f45724b71725fab567308ee405bd959049abc82bfa8c9c63d7db46",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10799_storage",
+            "src": "contracts\\Portal\\Portal.sol:78"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)11048_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11879_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:85"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:86"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:885"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10799_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)11048_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)11022_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)11022_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)11022_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11879_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "a550576ffac9f0695d8f933f962d70d84e63b3b5b19d3aa54b3fbe844ba6640e": {
+      "address": "0x0d0acC62401E2f5092e3591572b726c460E2415E",
+      "txHash": "0xba803c1b5be826128c27b81e3c700c962871ac09b680ce578585052ee344594f",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10799_storage",
+            "src": "contracts\\Portal\\Portal.sol:78"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)11048_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11879_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:85"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:86"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:885"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10799_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)11048_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)11022_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)11022_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)11022_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11879_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "9927e9368a17561bf03681c83cbaff8347a991d13544ea895cc6878b05cc2b80": {
+      "address": "0xD8CD2C8850400953A8b91DA8de3aAEBb4b313dE6",
+      "txHash": "0x5bcd642061fb392263160bf18488300c96d0d43094f632aabfda1c112cd715cc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10799_storage",
+            "src": "contracts\\Portal\\Portal.sol:78"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)11048_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11879_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:85"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:86"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:885"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10799_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)11048_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)11022_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)11022_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)11022_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11879_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "c7fe1860857d16a8f8bac761a76844672ecd89c607c0b758129eea26285dd9a6": {
+      "address": "0x89CB6A69A9bAA9c2a614F626a61250f204ACFb8C",
+      "txHash": "0x8610f62ccb8c5b62b0369829cdf196b29d64e8bdeb87af979310775f09ed2077",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10810_storage",
+            "src": "contracts\\Portal\\Portal.sol:78"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)11059_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11892_storage",
+            "src": "contracts\\Portal\\Portal.sol:79"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:85"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:86"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:887"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10810_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)11059_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)11033_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)11033_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)11033_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11892_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "1cebd0bbcfce7d8beee12c5ae1e9b2c24422467727819ed7a2946af065a288fa": {
+      "address": "0x3C6166758f2B14aDE4D41E7a6a3bECc27ca65444",
+      "txHash": "0x42780b0eaa493a57108e4b46560921cda18864a80399907572f6963c97d97d62",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC1155ReceiverUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155ReceiverUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC1155HolderUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC1155\\utils\\ERC1155HolderUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "Portal",
+            "label": "DATASTORE",
+            "type": "t_struct(DataStore)10566_storage",
+            "src": "contracts\\Portal\\Portal.sol:117"
+          },
+          {
+            "contract": "Portal",
+            "label": "GEODE",
+            "type": "t_struct(Universe)10815_storage",
+            "src": "contracts\\Portal\\Portal.sol:118"
+          },
+          {
+            "contract": "Portal",
+            "label": "STAKEPOOL",
+            "type": "t_struct(StakePool)11648_storage",
+            "src": "contracts\\Portal\\Portal.sol:118"
+          },
+          {
+            "contract": "Portal",
+            "label": "DEFAULT_INTERFACE",
+            "type": "t_address",
+            "src": "contracts\\Portal\\Portal.sol:124"
+          },
+          {
+            "contract": "Portal",
+            "label": "CONTRACT_VERSION",
+            "type": "t_uint256",
+            "src": "contracts\\Portal\\Portal.sol:125"
+          },
+          {
+            "contract": "Portal",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\Portal\\Portal.sol:930"
+          }
+        ],
+        "types": {
+          "t_struct(DataStore)10566_storage": {
+            "label": "struct DataStoreUtils.DataStore",
+            "members": [
+              {
+                "label": "allIdsByType",
+                "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)"
+              },
+              {
+                "label": "uintData",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              },
+              {
+                "label": "bytesData",
+                "type": "t_mapping(t_bytes32,t_bytes_storage)"
+              },
+              {
+                "label": "addressData",
+                "type": "t_mapping(t_bytes32,t_address)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_bytes_storage)": {
+            "label": "mapping(bytes32 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(Universe)10815_storage": {
+            "label": "struct GeodeUtils.Universe",
+            "members": [
+              {
+                "label": "SENATE",
+                "type": "t_address"
+              },
+              {
+                "label": "GOVERNANCE",
+                "type": "t_address"
+              },
+              {
+                "label": "OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_OPERATION_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "SENATE_EXPIRE_TIMESTAMP",
+                "type": "t_uint256"
+              },
+              {
+                "label": "approvedUpgrade",
+                "type": "t_address"
+              },
+              {
+                "label": "_electorCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "_electorTypes",
+                "type": "t_mapping(t_uint256,t_bool)"
+              },
+              {
+                "label": "_proposalForId",
+                "type": "t_mapping(t_uint256,t_struct(Proposal)10789_storage)"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)10789_storage)": {
+            "label": "mapping(uint256 => struct GeodeUtils.Proposal)"
+          },
+          "t_struct(Proposal)10789_storage": {
+            "label": "struct GeodeUtils.Proposal",
+            "members": [
+              {
+                "label": "CONTROLLER",
+                "type": "t_address"
+              },
+              {
+                "label": "TYPE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "deadline",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_bytes_storage"
+              }
+            ]
+          },
+          "t_struct(StakePool)11648_storage": {
+            "label": "struct StakeUtils.StakePool",
+            "members": [
+              {
+                "label": "gAVAX",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_SWAP_POOL",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_LP_TOKEN",
+                "type": "t_address"
+              },
+              {
+                "label": "ORACLE",
+                "type": "t_address"
+              },
+              {
+                "label": "DEFAULT_A",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "DEFAULT_ADMIN_FEE",
+                "type": "t_uint256"
+              },
+              {
+                "label": "FEE_DENOMINATOR",
+                "type": "t_uint256"
+              },
+              {
+                "label": "PERIOD_PRICE_INCREASE_LIMIT",
+                "type": "t_uint256"
+              },
+              {
+                "label": "MAX_MAINTAINER_FEE",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    }
+  }
+}
