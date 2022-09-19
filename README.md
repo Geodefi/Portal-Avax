@@ -1,4 +1,4 @@
-# Decentralized & Liquid staking pools
+# Decentralized & Trustless Protocol Owned Liquid Staking Derivatives
 
 > To see the changes made after the first audit please refer to this [CHANGELOG](./docs/CHANGELOG.md)
 
