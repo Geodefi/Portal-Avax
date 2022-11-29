@@ -935,4 +935,29 @@ describe("StakeUtils", async () => {
       });
     });
   });
+
+  describe("payDebt", () => {
+    beforeEach(async () => {
+      await testContract.connect(representative).beController(randId);
+      await testContract
+        .connect(representative)
+        .changeIdMaintainer(randId, user1.address);
+      // Operator maintainer 1
+      await testContract.connect(operator).beController(randId2);
+      await testContract
+        .connect(operator)
+        .changeIdMaintainer(randId2, operator.address);
+      await testContract.connect(user1).activateOperator(randId, randId2);
+      await testContract.deployWithdrawalPool(randId);
+    });
+
+    it("value added correctly to surplus when surplus is bigger than unclaimedFees and debt is smaller than ignorableDebt", async () => {
+      const value = 200;
+      await testContract.connect(deployer).putSurplus(randId, String(10));
+      
+      await testContract.connect(operator).payDebt(randId, randId2, { value: String(value), });
+
+      expect(await testContract.surplusById(randId)).to.be.eq(210);
+    });
+  });
 });

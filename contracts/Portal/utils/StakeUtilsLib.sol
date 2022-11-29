@@ -560,11 +560,6 @@ library StakeUtils {
         // we substract the debt from value to see how much left if there is any left to put it on surplus
         value -= debtToBurn;
       }
-
-      // to save gas we are making sure that value is bigger than zero and if so, we add it to the surplus.
-      if (value > 0) {
-        surplus += value;
-      }
     }
 
     _DATASTORE.writeUintForId(_poolId, "surplus", surplus + value);
